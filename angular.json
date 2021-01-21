@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "convertByte:build"
+            "browserTarget": "convertByte:build",
+            "port": 4202
           },
           "configurations": {
             "production": {
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "convertByte"
+    }
+  },
+  "defaultProject": "convertByte",
+  "cli": {
+    "analytics": "82b4f44f-06bf-4d2d-afd0-850584889de8"
+  }
 }
